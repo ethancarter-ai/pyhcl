@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyhcl"
+version = "0.1.0"
+description = "Validate and lint HCL/terraform files without switching stacks"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Weekly Project Creator"}]
+keywords = ["hcl", "terraform", "lint", "validator", "iac"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+pyhcl = "pyhcl:main"
+
+[tool.setuptools]
+py-modules = ["pyhcl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
