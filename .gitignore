@@ -1,4 +1,5 @@
 __pycache__/
+*.pyc
 .pytest_cache/
 dist/
 build/
@@ -9,3 +10,4 @@ build/
 .DS_Store
 *.db
 coverage/
+.mypy_cache/

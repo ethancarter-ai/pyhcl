@@ -25,6 +25,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/ethancarter-ai/pyhcl"
+
 [project.optional-dependencies]
 dev = ["pytest"]
 
