@@ -34,13 +34,12 @@ pyhcl module/ output.json
 ## Project Structure
 
 ```
-pyhcl/
-  pyhcl.py
-  pyproject.toml
-  README.md
-  .gitignore
-  tests/
-    test_pyhcl.py
+pyhcl.py
+pyproject.toml
+README.md
+.gitignore
+tests/
+  test_pyhcl.py
 ```
 
 ## Tags

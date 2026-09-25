@@ -22,10 +22,12 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Software Development :: Quality Assurance",
+  "Topic :: Text Processing",
 ]
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/ethancarter-ai/pyhcl"
 Repository = "https://github.com/ethancarter-ai/pyhcl"
 
 [project.optional-dependencies]
